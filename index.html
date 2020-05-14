@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>TO-DO Board</title>
+  <!-- google fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="flex">
+    <h1 class="head">
+      TO-DO Board
+    </h1>
+  </header>
+  <div class="error"></div>
+  <div class="flex flex-one board">
+    <div class="list drop" id="requested">
+      <div class="heading">
+        <div class="title"> <h2> Requested </h2></div>
+        <div class="add">+</div>
+      </div>
+    </div>
+    <div class="list drop" id="in-progress">
+      <div class="heading">
+        <div class="title"> <h2> In Progress</h2></div>
+      </div>
+    </div>
+    <div class="list drop" id="done">
+      <div class="heading">
+        <div class="title"> <h2>Done </h2></div>
+      </div>
+    </div>
+  </div>
+  <footer class="flex">
+    <span>
+      &copy;vaishnav.v_
+    </span>
+  </footer>
+  <script src="js/kanban.js"></script>
+</body>
+</html>
